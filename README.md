@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1 style="color: #00f0ff;">🚦 AUTONOMOUS TRAFFIC LIGHT CONTROLLER</h1>
+  <h1 style="color: #00f0ff;"gt>🚦 AUTONOMOUS TRAFFIC LIGHT CONTROLLER</h1>
   <p style="color: #ffb700; font-family: monospace;">&gt; SEQUENTIAL SIGNAL PROTOCOL // HARDWARE SIMULATION</p>
 
   <p>
@@ -35,3 +35,14 @@ An optimized Arduino-powered digital signal management system engineered to auto
 ---
 
 ### 💻 System Sequence & State Machine
+[ STATE 01: GREEN ]  --->  Delay 3000ms  --->  Proceeding Traffic
+│
+▼
+[ STATE 02: YELLOW ] --->  Delay 1000ms  --->  Caution / Deceleration
+│
+▼
+[ STATE 03: RED ]    --->  Delay 3000ms  --->  Full Stop Hazard Control
+
+
+---
+> Engineered, debugged, and deployed by **Vihaan Parab**[cite: 3].
