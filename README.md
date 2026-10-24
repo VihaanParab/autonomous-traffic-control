@@ -33,15 +33,4 @@ An optimized Arduino-powered digital signal management system engineered to auto
 
 ---
 
-### 💻 System Sequence & State Machine
-*[ STATE 01: GREEN ]  --->  Delay 3000ms  --->  Proceeding Traffic
-*│
-*▼
-*[ STATE 02: YELLOW ] --->  Delay 1000ms  --->  Caution / Deceleration
-*│
-*▼
-*[ STATE 03: RED ]    --->  Delay 3000ms  --->  Full Stop Hazard Control
-
-
----
 > Engineered, debugged, and deployed by **Vihaan Parab**
