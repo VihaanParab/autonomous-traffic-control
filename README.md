@@ -27,22 +27,21 @@ An optimized Arduino-powered digital signal management system engineered to auto
 ---
 
 ### ⚙️ Hardware Architecture & Wire Optimization
-* **Microcontroller:** Arduino Uno R3 (Bare-Metal C++ Logic)[cite: 3]
-* **Signal Matrix:** Red, Yellow, and Green LED Arrays (or integrated RGB diode mapping)
+* **Microcontroller:** Arduino Uno R3 (Bare-Metal C++ Logic)
+* **Signal Matrix:** Red, Yellow, and Green LED Arrays 
 * **Current Protection:** $220\Omega$ Current-Limiting Resistor Network
-* **Wire Budget Optimization:** Direct-breadboard grounding topology (utilizing under 4 total jumper wires)
 
 ---
 
 ### 💻 System Sequence & State Machine
-[ STATE 01: GREEN ]  --->  Delay 3000ms  --->  Proceeding Traffic
-│
-▼
-[ STATE 02: YELLOW ] --->  Delay 1000ms  --->  Caution / Deceleration
-│
-▼
-[ STATE 03: RED ]    --->  Delay 3000ms  --->  Full Stop Hazard Control
+*[ STATE 01: GREEN ]  --->  Delay 3000ms  --->  Proceeding Traffic
+*│
+*▼
+*[ STATE 02: YELLOW ] --->  Delay 1000ms  --->  Caution / Deceleration
+*│
+*▼
+*[ STATE 03: RED ]    --->  Delay 3000ms  --->  Full Stop Hazard Control
 
 
 ---
-> Engineered, debugged, and deployed by **Vihaan Parab**[cite: 3].
+> Engineered, debugged, and deployed by **Vihaan Parab**
