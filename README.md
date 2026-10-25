@@ -19,6 +19,10 @@
 
 ---
 
+>For Demo Animation Click on the Automatic_Traffic_Light.gif repository
+
+---
+
 ### 📡 System Overview
 An optimized Arduino-powered digital signal management system engineered to automate traffic light transitions via sequential timing control. Built with a minimal-wire breadboard topology and fully debugged for real-world deployment.
 
